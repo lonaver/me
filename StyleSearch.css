@@ -1,0 +1,133 @@
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+  }
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.add{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    
+}
+
+.add a{
+    /* margin-right: 15px;  */
+    display: inline;
+    line-height: 24px;
+    vertical-align: middle;
+    text-decoration: none; 
+    font-size: 13px;
+    color: black;
+}
+
+.gb_f:hover{
+    text-decoration:underline ; 
+}
+
+
+.content{
+    position: absolute;
+    top: 15%;
+}
+
+.logo{
+    padding: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.image{
+    width: 300px;
+}
+
+.search_form{
+    text-align: center;
+    margin: 10px;
+}
+
+/* .form input{
+    margin: 15px;
+} */
+
+.search_input{
+    padding: 12px;
+    min-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: block;
+}
+
+.search_input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search_image{
+    padding: 12px;
+    min-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: block;
+}
+
+.search_image:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+ .submit{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+#bt{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#bt:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}

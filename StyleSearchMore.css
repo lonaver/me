@@ -1,0 +1,105 @@
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+  }
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.homepage{
+    width: 60px;
+    margin-left: 8px;
+}
+
+.block{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    font-size: 20px;
+    color: #25d94c;
+    margin: 25px 35px;
+}
+
+.top_block{
+    font-size: 20px;
+    color: #25d94c;
+    margin: 25px 35px;
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.block_form{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.find__pages{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form__fields{
+    width: 100%;
+    clear: both;
+}
+
+.search__string{
+    clear: both;
+}
+
+.field__label{
+    color: #222;
+    font-size: 13px;
+    float: left;
+    width: 27%;
+    height: 42px;
+    min-width: 160px;
+}
+
+.keys__label{
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.form__field{
+    vertical-align: middle;
+    display: table-cell;
+    float: left;
+    width: 50%;
+    height: 42px;
+    min-width: 250px;
+}
+
+/* .input__field{
+} */
+
+.adv__input{
+    width: 100%;
+    text-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.adv__input:focus{
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+
+.search__submit{
+    text-align: center;
+}
